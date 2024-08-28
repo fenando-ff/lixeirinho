@@ -181,10 +181,37 @@
       }
     }
 
-@media screen and (max-width:600px) {
-
-
-  
+@media screen and (min-width:600px) {
+  .container{
+    display: flex;
+  }
 }
 
-    
+.card {
+  width: 60%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: center;
+}
+
+
+
+.card-img {  
+  
+  background-size: cover; 
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  text-align: center;
+  height: 15rem;
+}
+
+
+button{
+  color: #fff;
+}
