@@ -9,7 +9,7 @@
 
 :root {
     --primary-color: #21a3a3;
-    --second-color: #1b7340;
+    --second-color: #fff;
     --threeth-color: #6cf3d5;
     --fourth-color: #7375a5;
     --fifth-color: #2b364a;
@@ -77,7 +77,7 @@
 
   .nav-links a {
     /*Mudando a cor dos itens*/
-    color: white;
+    color:  #1b7340;
     /*Mudando o espaçamento das letras dos itens*/
     text-decoration: none;
     letter-spacing: 3px;
@@ -96,7 +96,7 @@
     /*Ajeitando o menu Hambuguer*/
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color:  #1b7340;
     margin: 5px;
     transition: all 0.3s ease;
   }
