@@ -9,7 +9,7 @@
 
 :root {
     --primary-color: #21a3a3;
-    --second-color: #097424;
+    --second-color: #1b7340;
     --threeth-color: #6cf3d5;
     --fourth-color: #7375a5;
     --fifth-color: #2b364a;
@@ -53,9 +53,11 @@
     letter-spacing: 5px;
     /*Tamaho da letra*/
     font-size: 20px;
-
   }
-  
+
+  .img-logo{
+    width: 20%;
+  }
 
   .nav-links {
     /*Ajustando o tamanho e posição dos itens*/
