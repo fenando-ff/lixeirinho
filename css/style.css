@@ -187,7 +187,7 @@
   }
 }
 
-.card {
+/* .card {
   width: 60%;
   height: auto;
   border: 1px solid #ccc;
@@ -210,8 +210,30 @@
   text-align: center;
   height: 15rem;
 }
+*/
 
+form{
+  display: flex;
+  justify-content: space-between;
+}
 
-button{
-  color: #fff;
+input{
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 90%;
+  text-align: center;
+  height: auto;
+  margin: 50px;
+  height: 40px;
+  background-color: #01ff6b52;
+  border: none;
+}
+
+h3{
+  margin-left: 40px;
+  color: #1b7340;
+}
+
+a{
+  color: #1b7340;
 }
